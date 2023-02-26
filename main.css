@@ -1,0 +1,837 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.wrapper {
+    width: 100%;
+    background-color: #d6ebf1;;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.block-left {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    background: url(image/bg_block_left.png);
+    background-size: 100% 100%;
+    font-family: OpenSans;
+    border-radius: 30px;
+
+}
+
+.block-left .candidate-image .candidate-photo img {
+    width: 350px;
+    height: 350px;
+}
+
+.block-left .candidate-image {
+    margin: 70px 0px 0px 0px;
+}
+
+.block-left .candidate-image .candidate-name {
+    margin-top: 6px;
+}
+
+.block-left .candidate-image .candidate-name .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-left .candidate-image .candidate-name .name h1 {
+    color: #0084c7;
+    font-size: 72px;
+    font-family: OpenSans;
+    letter-spacing: 10px;
+    margin: 3px 0px 0px 0px;
+    font-weight: 600;
+}
+
+.block-left .candidate-image .candidate-name .profession h2 {
+    font-size: 28px;
+    color: #636466;
+    font-family: OpenSans;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1px;
+    font-weight: 300;
+}
+
+.block-left .target {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 73%;
+    font-family: OpenSans;
+}
+
+.block-left .target h3 {
+    color: #414142;
+    font-size: 24px;
+}
+
+.block-left .target p {
+    text-align: justify;
+    color: #636466;
+}
+
+.horizont-line {
+    width: 100%;
+    height: 2px;
+    background-color: #939598;
+    position: relative;
+}
+
+.horizont-line::before {
+    content: '';
+    width: 40px;
+    background-color: #31afd8;
+    height: 6px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    top: -2px;
+
+}
+
+
+.block-left .candidate-contacts {
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.block-left .candidate-contacts h3 {
+    font-size: 24px;
+    color: #414142;
+    text-transform: uppercase;
+}
+
+.block-left .candidate-contacts .Adress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #414142;
+    margin: 10px 0px 2px 0px;
+}
+
+.block-left .candidate-contacts .Phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #414142;
+    margin: 2px;
+}
+
+.block-left .candidate-contacts .Email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #414142;
+    margin: 2px 0px 10px 0px;
+}
+
+.block-left .candidate-contacts a {
+    text-decoration: none;
+    color: #636466;
+}
+
+.block-left .candidate-contacts h4 {
+    margin: 10px 0px 0px 0px;
+}
+
+.block-left .candidate-hobby {
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0px 75px 0px;
+}
+
+.block-left .candidate-hobby h3 {
+    color: #414142;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.block-left .candidate-hobby .hobby-image {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+
+}
+
+.block-left .candidate-hobby .hobby-image div {
+    width: 50%;
+    margin: 15px 0px 0px 0px;
+}
+
+.block-left .candidate-hobby .hobby-image div a {
+    text-decoration: none;
+    color: #636466;
+}
+
+.block-left .candidate-hobby .hobby-image div a img {
+    width: 30%;
+    height: 40px;
+}
+
+.block-left .candidate-hobby .hobby-image div a p {
+    margin: 5px;
+    font-weight: 600;
+}
+
+.block-right {
+    width: 63%;
+    background: url(image/bg_block_right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px 20px 15px;
+    font-family: OpenSans;
+    border-radius: 30px;
+}
+
+.block-right .experience {
+    width: 91%;
+    margin: 55px 0px 40px 0px;
+}
+
+.block-right .experience h3 {
+    color: #414142;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.long-line {
+    width: 100%;
+    height: 2px;
+    background-color: #939598;
+    position: relative;
+}
+
+.long-line::before {
+    content: '';
+    width: 40px;
+    background-color: #31afd8;
+    height: 6px;
+    position: absolute;
+    top: -2px;
+}
+
+.block-right .experience .job-first {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px 15px 0px;
+}
+
+.block-right .experience .job-first h4 {
+    margin: 20px 0px 12px 0px;
+    color: #414142;
+}
+
+.block-right .experience .job-first p {
+    margin: 8px 0px 8px 0px;
+    color: #636466;
+
+}
+
+.block-right .experience .job-first .vacancy p {
+    margin: 0px;
+}
+
+.block-right .experience .job-first .company p {
+    text-align: justify;
+}
+
+.block-right .experience .job-first .vacancy {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-right .experience .job-first .company {
+    width: 65%;
+}
+
+.block-right .experience .job-second {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px 15px 0px;
+}
+
+.block-right .experience .job-second h4 {
+    margin: 20px 0px 12px 0px;
+    color: #414142;
+}
+
+.block-right .experience .job-second p {
+    margin: 8px 0px 8px 0px;
+    color: #636466;
+
+}
+
+.block-right .experience .job-second .vacancy p {
+    margin: 0px;
+}
+
+.block-right .experience .job-second .company p {
+    text-align: justify;
+}
+
+.block-right .experience .job-second .vacancy {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-right .experience .job-second .company {
+    width: 65%;
+}
+
+.block-right .experience .job-third {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px 15px 0px;
+}
+
+.block-right .experience .job-third h4 {
+    margin: 20px 0px 12px 0px;
+    color: #414142;
+}
+
+.block-right .experience .job-third p {
+    margin: 8px 0px 8px 0px;
+    color: #636466;
+
+}
+
+.block-right .experience .job-third .vacancy p {
+    margin: 0px;
+}
+
+.block-right .experience .job-third .company p {
+    text-align: justify;
+}
+
+.block-right .experience .job-third .vacancy {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-right .experience .job-third .company {
+    width: 65%;
+}
+
+.block-right .experience .job-fourth {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.block-right .experience .job-fourth h4 {
+    margin: 20px 0px 12px 0px;
+    color: #414142;
+}
+
+.block-right .experience .job-fourth p {
+    margin: 8px 0px 8px 0px;
+    color: #636466;
+
+}
+
+.block-right .experience .job-fourth .vacancy p {
+    margin: 0px;
+}
+
+.block-right .experience .job-fourth .company p {
+    text-align: justify;
+}
+
+.block-right .experience .job-fourth .vacancy {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-right .experience .job-fourth .company {
+    width: 65%;
+}
+
+.block-right .education {
+    width: 91%;
+    margin: 55px 0px 40px 0px;
+}
+
+.block-right .education .diploma {
+    width: 95%;
+    margin: 0% 0% 0% 5%;
+}
+
+.block-right .education h3 {
+    color: #414142;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.block-right .education .course-first {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    width: 90%;
+}
+
+.block-right .education .course-first h4 {
+    margin: 20px 0px 12px 0px;
+    color: #414142;
+}
+
+.block-right .education .course-first p {
+    margin: 8px 0px 8px 0px;
+    color: #636466;
+
+}
+
+.block-right .education .course-first .date-cours p {
+    margin: 0px;
+}
+
+.block-right .education .course-first .date-cours {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-right .education .course-first .description {
+    width: 60%;
+}
+
+.block-right .education .course-second {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    width: 90%;
+}
+
+.block-right .education .course-second h4 {
+    margin: 20px 0px 12px 0px;
+    color: #414142;
+}
+
+.block-right .education .course-second p {
+    margin: 8px 0px 8px 0px;
+    color: #636466;
+
+}
+
+.block-right .education .course-second .date-cours p {
+    margin: 0px;
+}
+
+.block-right .education .course-second .date-cours {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-right .education .course-second .description {
+    width: 60%;
+}
+
+.block-right .education .course-third {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    width: 90%;
+}
+
+.block-right .education .course-third h4 {
+    margin: 20px 0px 12px 0px;
+    color: #414142;
+}
+
+.block-right .education .course-third p {
+    margin: 8px 0px 8px 0px;
+    color: #636466;
+
+}
+
+.block-right .education .course-third .date-cours p {
+    margin: 0px;
+}
+
+.block-right .education .course-third .date-cours {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-right .education .course-third .description {
+    width: 60%;
+}
+
+.block-right .education .course-fourth {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    width: 90%;
+}
+
+.block-right .education .course-fourth h4 {
+    margin: 20px 0px 12px 0px;
+    color: #414142;
+}
+
+.block-right .education .course-fourth p {
+    margin: 8px 0px 8px 0px;
+    color: #636466;
+
+}
+
+.block-right .education .course-fourth .date-cours p {
+    margin: 0px;
+}
+
+.block-right .education .course-fourth .date-cours {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-right .education .course-fourth .description {
+    width: 60%;
+}
+
+.block-right .education .diploma a {
+    text-decoration: none;
+    color: #636466;
+}
+
+.block-right .qualities {
+    width: 91%;
+    margin-top: 50px;
+}
+
+.block-right .qualities h3 {
+    color: #414142;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.block-right .qualities p {
+    text-align: justify;
+    margin-left: 5%;
+}
+
+ @media screen and (max-width: 1200px) {
+    .block-left {
+        width: 34%;
+    }
+
+}
+
+@media screen and (max-width: 1125px) {
+    .block-left {
+        width: 34%;
+    }
+
+    .block-left .candidate-image .candidate-photo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .block-left .candidate-image .candidate-photo img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .block-left .candidate-image .candidate-name .name h1 {
+        font-size: 48px;
+    }
+
+
+}
+
+@media screen and (max-width: 955px) {
+
+    .block-left .candidate-image .candidate-name .name {
+        margin-top: 75px;
+        font-size: 32px;
+    }
+
+    .block-left {
+        width: 36%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .block-right .experience {
+        width: 97%;
+    }
+
+
+}
+
+@media screen and (max-width: 802px) {
+    .block-left .candidate-image .candidate-photo {
+        margin-top: 70px;
+    }
+
+    .block-left .candidate-image .candidate-name {
+        margin-top: 70px;
+    }
+
+    .block-left .candidate-image .candidate-name .name h1 {
+        font-size: 40px;
+        letter-spacing: 8px;
+    }
+
+    .block-left .candidate-image .candidate-photo img {
+        width: 250px;
+        height: 250px;
+    }
+
+
+}
+
+@media screen and (max-width: 715px) {
+
+    .block-left .candidate-image .candidate-photo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .block-left .candidate-hobby .hobby-image div {
+        width: 100%;
+    }
+
+    .block-left .candidate-image .candidate-name .name h1 {
+        font-size: 30px;
+        letter-spacing: 6px;
+    }
+
+    .block-left .candidate-image .candidate-name .name {
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .block-left {
+        background-size: 100% 100%;
+    }
+
+    .block-right .job-vacancy .job-first .vacancy {
+        width: 67%;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .block-right .job-vacancy .job-first .company {
+        font-size: 14px;
+    }
+
+    .block-right .job-vacancy .job-first {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-right .job-vacancy .job-second .vacancy {
+        width: 67%;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .block-right .job-vacancy .job-second .company {
+        font-size: 14px;
+    }
+
+    .block-right .job-vacancy .job-second {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-right .job-vacancy .job-third .vacancy {
+        width: 67%;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .block-right .job-vacancy .job-third .company {
+        font-size: 14px;
+    }
+
+    .block-right .job-vacancy .job-third {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-right .job-vacancy .job-fourth .vacancy {
+        width: 67%;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .block-right .job-vacancy .job-fourth .company {
+        font-size: 14px;
+    }
+
+    .block-right .job-vacancy .job-fourth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .wrapper .block-left {
+        width: 95%;
+    }
+
+    .wrapper .block-right {
+        width: 95%;
+    }
+
+    .block-left {
+        background-size: cover;
+    }
+
+    .block-left .candidate-image .candidate-photo {
+        margin-top: 38px;
+    }
+
+    .block-left .candidate-image .candidate-photo img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .block-left .candidate-hobby .hobby-image div {
+        width: 50%;
+    }
+
+    .block-right .qualities p {
+        font-size: 14px;
+        margin-left: 0%;
+    }
+
+    .block-right {
+        margin: 10px 5px 5px 5px;
+    }
+
+    .block-left {
+        margin: 10px 5px 5px 5px;
+    }
+
+    .block-right .job-vacancy .job-first .vacancy {
+        width: 85%;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .block-right .job-vacancy .job-second .vacancy {
+        width: 85%;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .block-right .job-vacancy .job-third .vacancy {
+        width: 85%;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .block-right .job-vacancy .job-fourth .vacancy {
+        width: 85%;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .block-right .job-vacancy .job-first .company {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .block-right .job-vacancy .job-second .company {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .block-right .job-vacancy .job-third .company {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .block-right .job-vacancy .job-fourth .company {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .block-right .education .course-second .date-cours p {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 388px) {
+    .block-left .candidate-image .candidate-photo img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .block-left .candidate-image .candidate-photo {
+        margin-top: 62px;
+    }
+} 
